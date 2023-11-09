@@ -357,7 +357,7 @@ function youWon(photoEl, descriptionEl, controlsEl) {
     removeChildren(photoEl, descriptionEl, controlsEl);
     // photo
     let youWonImage = document.createElement("img");
-    youWonImage.src = "./images/startGame.jpg";
+    youWonImage.src = "./images/youWon.jpg";
 
     photoEl.appendChild(youWonImage);
     youWonImage.setAttribute("class", "photo-attributes");

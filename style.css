@@ -17,6 +17,7 @@
 .photo {
     grid-column: 1;
     margin: 1rem;
+    width: 50rem;
 }
 
 .controls {
@@ -27,6 +28,7 @@
     flex-direction: column;
     justify-content: center;
     margin: 1rem;
+    width: 20rem;
 }
 
 .description {
@@ -35,6 +37,7 @@
     grid-row: 2;
     height: 12rem;
     margin: 1rem;
+    width: 50rem;
 }
 
 .photo-attributes {
@@ -51,7 +54,7 @@
 
 .controls-button {
     font-family: 'MedievalSharp', cursive;
-    font-size: 3rem;
+    font-size: 2rem;
     height: 5rem;
     background-color: #9f4e44;
     color: #000000;
